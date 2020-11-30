@@ -11,6 +11,10 @@
 		9FAFE5D6257564DE005F503B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFE5D5257564DE005F503B /* ContentView.swift */; };
 		9FAFE5D8257564DF005F503B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFE5D7257564DF005F503B /* Assets.xcassets */; };
 		9FAFE5DB257564E0005F503B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFE5DA257564E0005F503B /* Preview Assets.xcassets */; };
+		9FAFE5E825756508005F503B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFE5E725756508005F503B /* Home.swift */; };
+		9FAFE5EE25756541005F503B /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFE5ED25756541005F503B /* AppItem.swift */; };
+		9FAFE5F12575654F005F503B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFE5F02575654F005F503B /* CardView.swift */; };
+		9FAFE5F42575655A005F503B /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFE5F325756559005F503B /* CustomNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		9FAFE5D7257564DF005F503B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FAFE5DA257564E0005F503B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FAFE5DC257564E0005F503B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAFE5E725756508005F503B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9FAFE5ED25756541005F503B /* AppItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		9FAFE5F02575654F005F503B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9FAFE5F325756559005F503B /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				9FAFE5D3257564DE005F503B /* Searchbar_SwiftuiApp.swift */,
-				9FAFE5D5257564DE005F503B /* ContentView.swift */,
+				9FAFE5E5257564F8005F503B /* model */,
+				9FAFE5E4257564F1005F503B /* view */,
+				9FAFE5E3257564EB005F503B /* scenes */,
 				9FAFE5D7257564DF005F503B /* Assets.xcassets */,
 				9FAFE5DC257564E0005F503B /* Info.plist */,
 				9FAFE5D9257564E0005F503B /* Preview Content */,
@@ -67,6 +77,32 @@
 				9FAFE5DA257564E0005F503B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FAFE5E3257564EB005F503B /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFE5D5257564DE005F503B /* ContentView.swift */,
+				9FAFE5E725756508005F503B /* Home.swift */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		9FAFE5E4257564F1005F503B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFE5F02575654F005F503B /* CardView.swift */,
+				9FAFE5F325756559005F503B /* CustomNavigationView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9FAFE5E5257564F8005F503B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFE5ED25756541005F503B /* AppItem.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAFE5EE25756541005F503B /* AppItem.swift in Sources */,
 				9FAFE5D6257564DE005F503B /* ContentView.swift in Sources */,
+				9FAFE5E825756508005F503B /* Home.swift in Sources */,
+				9FAFE5F42575655A005F503B /* CustomNavigationView.swift in Sources */,
 				9FAFE5D4257564DE005F503B /* Searchbar_SwiftuiApp.swift in Sources */,
+				9FAFE5F12575654F005F503B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
